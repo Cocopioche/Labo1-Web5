@@ -11,6 +11,7 @@ const retour = () => {
   <br>
   <p>Fait par: Jean-Christophe Rochon</p>
   <br>
+  <a href="https://github.com/Cocopioche/Labo1-Web5">Github</a>
   <button @click="retour" class="cancel-button">Retour</button>
 </template>
 
