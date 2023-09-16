@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:5000'; // Update with your API's base URL
+const baseURL = 'http://localhost:5000';
 
 const axiosInstance = axios.create({
     baseURL,
