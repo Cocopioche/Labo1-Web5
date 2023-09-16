@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "concurrently \"npm run build\" \"node backend/BookmarksService.js\"",
+    "start": "concurrently \"node backend/BookmarksService.js\" \"npm run preview\" ",
     "preview": "vite preview"
   },
   "dependencies": {
