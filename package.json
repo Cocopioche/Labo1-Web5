@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preinstall": "vite build",
-    "start": "node server.js",
+    "start": "node server.cjs",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -25,5 +25,8 @@
     "concurrently": "^6.2.1",
     "nodemon": "^3.0.1",
     "vite": "^4.4.9"
-  }
+  },
+  "engines": {
+  "node": "16.14.2"
+}
 }
