@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "start": "concurrently \"npm run build\" \"node backend/BookmarksService.js\"",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.3.1",
+    "concurrently": "^6.2.1",
     "nodemon": "^3.0.1",
     "vite": "^4.4.9"
   }

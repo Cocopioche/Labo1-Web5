@@ -26,3 +26,5 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+.run/npm dev.run.xml
+.run/Start Server.run.xml
